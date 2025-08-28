@@ -38,3 +38,5 @@ https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
   ***Code:***
   
   Download the `traffic_light.ino` in the project repo.
+  
+  *Notes:* Before running the code, you must have a DFRobotDFPlayeMini (by DFRobot) library
