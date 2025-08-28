@@ -38,6 +38,11 @@ https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
   ***Code:***
   
   Download the `traffic_light.ino` in the project repo.
-  Upload 2 sound files (found in repo) into the SD Card and insert it into the MP3-TF-16P module.
+  Upload 2 sound files (found in repo) into the SD Card and insert it into the MP3-TF-16P module. (Make sure there is no any other files in the SD card)
   
-  *Notes:* Before running the code, you must have a DFRobotDFPlayeMini (by DFRobot) library
+  *Notes:* 
+  - Before running the code, you must have a DFRobotDFPlayeMini (by DFRobot) library.
+  - If the speaker does not say "Pedestrians stop", change the code in line 74 from `myDFPlayer.play(3);` to `myDFPlayer.play(2;`.
+
+
+ 
