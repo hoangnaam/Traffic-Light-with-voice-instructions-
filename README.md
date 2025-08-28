@@ -21,7 +21,7 @@ https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
 
   ***Required components:***
   - 1 Arduino UNO R3.
-  - 1 MP3-TF-16P module.
+  - 1 MP3-TF-16P module (Reading SD cards)
   - 1 Speaker.
   - 1 Button.
   - 1 Buzzer.
@@ -30,7 +30,7 @@ https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
   - 5 LEDs (2 reds, 2 greens, 1 yellow).
   - Jumper wires.
   - Bredboards.
-  
+  - 1 SD Card.
   ***Wiring:***
   
   Looks at the schematic.
@@ -38,5 +38,6 @@ https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
   ***Code:***
   
   Download the `traffic_light.ino` in the project repo.
+  Upload 2 sound files (found in repo) into the SD Card and insert it into the MP3-TF-16P module.
   
   *Notes:* Before running the code, you must have a DFRobotDFPlayeMini (by DFRobot) library
