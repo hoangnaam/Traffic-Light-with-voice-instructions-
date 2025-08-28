@@ -1,7 +1,7 @@
 ## What is it?
 This project is a simple traffic light controller with pedestrian crossing. When the button is pressed, the system checks if enough time has passed since the last light change (to avoid interrupting traffic too soon). If allowed, the car lights cycle from green → yellow → red, and the pedestrian light turns green and the speaker announces. After a set crossing time, the pedestrian light starts flashing to warn that it’s about to change back to red with another announcement. Finally, the car lights return from red → yellow → green, and normal traffic flow continues.
 
-## Videos:
+## Videos (Please turns on the sound):
 
 https://github.com/user-attachments/assets/c37eb1e0-0d36-4e11-9700-490b101f74fb
 
